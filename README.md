@@ -34,9 +34,9 @@ Protobuf (pb、在各服务中通过 go get -u github.com/shinmigo/pb 更新安�
 ##### 4，部署流程
 
 1，安装go环境，支持go 1.12及以上版本  
-2，安装web服务，如nginx 或 apache等，安装mysql 5.6及以上，安装redis 3.x及以上    
+2，安装web服务，如nginx 或 apache等，安装mysql 8.0及以上，安装redis 3.x及以上    
 3，安装服务发现etcd 支持etcd v3.4及以上版本  
-4，导入goshop数据库  
+4，导入goshop数据库，数据库sql文件在goshop-doc仓库中 
 5，开启etcd  
 6，编译运行 service-product、service-order、service-member、service-promotion、service-shop 各服务之间不用关心启动的顺序  
 7，编译运行 admin-api默认端口8099、front-api默认端口8199  
